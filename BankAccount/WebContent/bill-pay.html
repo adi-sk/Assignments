@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pay Bill</title>
+</head>
+<body>
+	<form action="pay-bills.do" method="post">
+		<h2>Bill Type</h2>
+		<input type="radio" name="electricBill" value="electricBill"/>Electric Bill
+		<input type="radio" name="phoneBill" value="phoneBill"/>Phone Bill<br/>
+		<br/><br/>
+		
+		<h2>Select Provider:</h2><br/><br/>
+		<select name="providerElectric">
+			<option value ="MSEB">MSEB</option>
+			<option value ="Tata">Tata</option>
+			<option value ="Reliance" >Reliance</option>
+			
+		</select><br/>
+		
+		<select name = "providerPhone">
+		
+		<option value ="MTNL">MTNL</option>
+			<option value ="Jio">Jio</option>
+			<option value ="Airtel" >Airtel</option>
+			<option value ="Vodafone">Vodafone</option>
+			<option value ="Idea">Idea</option>
+		
+		</select>
+		
+		<h2>Enter Amount</h2>
+		<input type="number" value=0><br/><br/>
+		
+		<input type="submit" value="Pay"><br/><br/>
+	</form>
+	
+	
+	
+</body>
+</html>
