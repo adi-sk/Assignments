@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class NewAccountServlet
  */
-@WebServlet("/NewAccountServlet")
+@WebServlet("/new-account.do")
 public class NewAccountServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
